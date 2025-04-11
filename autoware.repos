@@ -86,7 +86,7 @@ repositories:
   # launcher
   launcher/autoware_launch:
     type: git
-    url: https://github.com/autowarefoundation/autoware_launch.git
+    url: git@github.com:iumida/autoware_launch.agv428.git
     version: 0.43.1
   # sensor_component
   sensor_component/external/sensor_component_description:
@@ -96,7 +96,7 @@ repositories:
   sensor_component/external/nebula:
     type: git
     url: https://github.com/tier4/nebula.git
-    version: v0.2.4
+    version: v0.2.5
   # Fork of transport_drivers that enables reduction of copy operations
   sensor_component/transport_drivers:
     type: git
@@ -110,13 +110,5 @@ repositories:
   # param
   param/autoware_individual_params:
     type: git
-    url: https://github.com/autowarefoundation/autoware_individual_params.git
+    url: git@github.com:iumida/agv428_individual_params.git
     version: 70000825155182d9261ce0980076b0e2c6dc3f51
-  # middleware
-  # TODO(TIER IV): During the transition period of Agnocast introduction,
-  # the Agnocast ROS packages are provided as a source build.
-  # Once the transition stabilizes, use the packages released from the official ROS repository.
-  middleware/external/agnocast:
-    type: git
-    url: https://github.com/tier4/agnocast.git
-    version: 1.0.2
